@@ -98,7 +98,7 @@
         const ip = "Inconnue"; // À enrichir si tu veux ajouter un appel API
         const timestamp = new Date().toISOString();
 
-        fetch("https://script.google.com/macros/s/AKfycbxxn0JMvGCWtoqTHD07vRHHemNZ9DvzvzIKmdbjW6IBDTU0x5x1tbfUloxGJD2n8qXI/exec", {
+        fetch("https://script.google.com/macros/s/AKfycbwHcJhegiNANefcdHBGbN3PRWsQZ0Fb3ZLbTKupbEtIhz4a7EQljUOsudPULlO6R8xX/exec", {
           method: "POST",
           headers: {
             "Content-Type": "application/json"
